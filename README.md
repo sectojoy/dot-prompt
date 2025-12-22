@@ -1,4 +1,4 @@
-# Prompt Template Specification (`.prompt`)
+# ZelonAI Prompt Template Specification (`.prompt`)
 
 > **Version**: 1.0.0 | **Author**: SectoJoy | **License**: MIT
 
