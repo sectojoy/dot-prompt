@@ -1,4 +1,4 @@
-# Prompt 模板规范 (`.prompt`)
+# ZelonAI Prompt 模板规范 (`.prompt`)
 
 > **版本**: 1.0.0 | **作者**: SectoJoy | **许可证**: MIT
 
