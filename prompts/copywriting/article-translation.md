@@ -1,5 +1,5 @@
 ---
-title: "Article Translation"
+title: "Markdown Article Translation"
 description: "Maintain the structure of the article and translate it into another language."
 version: "1.0.0"
 
@@ -24,44 +24,26 @@ inputs:
       - "Turkish (Türkçe)"
     default: "English"
     required: true
-  - key: "text"
+  - key: "content"
     type: "longText"
     label: "Article"
     placeholder: "Markdown Article content"
     required: true
 ---
 
-<instruction>
-  1. Please read the input variables, where:
-     - {{language}} indicates the target translation language (e.g., English, Spanish, Chinese, etc.).
-     - {{content}} represents the content of the Markdown document to be translated.
-  2. Translate the input Markdown document content into {{language}}. You must strictly preserve the Markdown format, ensuring that all headers, lists, code blocks, links, and other Markdown syntax remain correct and intact.
-  3. During translation, convert only the text content. All Markdown markers (e.g., #, -, ```, etc.) must remain exactly the same in the translated output.
-  4. The output must not contain any XML tags; output only the translated pure Markdown document.
-</instruction>
+Instruction: Markdown Article Translation
+requirements: 
+1. **Translation Goal**: Translate the **input content** into `{{language}}`.
+2. **Format Preservation (CRITICAL)**:
+* You must **strictly preserve** the original Markdown format.
+* Ensure all headers, lists, code blocks, links, bolding/italics, and other Markdown syntax remain correct and intact.
+* **Do not** translate code inside code blocks unless it is comment text.
+* All Markdown markers (e.g., `#`, `-`, `*`, `````) must remain exactly the same in the output.
+3. **Output Constraints**:
+* Output **only** the translated pure Markdown document.
+* Do not include any XML tags, introductory text, or explanations.
 
-<input>
-  <variable name="language" type="string">
-    The target translation language, e.g., "English", "Spanish", etc.
-  </variable>
-  <variable name="content" type="markdown">
-    The Markdown document content to be translated.
-  </variable>
-</input>
+**Here is the input content**
+---
 
-<example>
-  Example:
-  Input:
-    language: Spanish
-    content: |
-      # Title
-      This is example text, which contains **bold** and *italic* formatting.
-  
-  Output:
-      # Título
-      Este es un texto de ejemplo, que contiene formato **negrita** y *cursiva*.
-</example>
-
-<output>
-  The output should be text containing only the translated Markdown document content, without any other tags or explanations.
-</output>
+{{content}}
