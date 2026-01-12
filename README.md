@@ -725,7 +725,7 @@ This repository is fully compatible with <strong>PromptKit</strong>. <br>
 Import these templates to handle variables <code>{{input}}</code> automatically without manual copy-pasting.
 </p>
 
-<a href="https://apps.apple.com/app/idYOUR_APP_ID">
+<a href="https://apps.apple.com/app/promptkit-ai-prompt-manager/id6755911215">
 <img src="https://img.shields.io/badge/Download_on_the-App_Store-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download on the App Store">
 </a>
 
