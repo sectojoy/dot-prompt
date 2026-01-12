@@ -715,3 +715,24 @@ Complete JSON Schema definition:
 - [LangChain Prompts](https://python.langchain.com/docs/concepts/prompt_templates/)
 - [Anthropic MCP](https://modelcontextprotocol.io/docs/concepts/prompts)
 - [Fabric Patterns](https://github.com/danielmiessler/fabric)
+
+<div align="center">
+
+<h3>🚀 Boost your productivity with PromptKit</h3>
+
+<p>
+This repository is fully compatible with <strong>PromptKit</strong>. <br>
+Import these templates to handle variables <code>{{input}}</code> automatically without manual copy-pasting.
+</p>
+
+<a href="https://apps.apple.com/app/idYOUR_APP_ID">
+<img src="https://img.shields.io/badge/Download_on_the-App_Store-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download on the App Store">
+</a>
+
+<p>
+<a href="[[https://apps.apple.com/app/idYOUR_APP_ID](https://apps.apple.com/app/promptkit-ai-prompt-manager/id6755911215)](https://apps.apple.com/app/promptkit-ai-prompt-manager/id6755911215)">iOS Version</a> &nbsp;&bull;&nbsp; <a href="[[https://apps.apple.com/app/idYOUR_APP_ID](https://apps.apple.com/app/promptkit-ai-prompt-manager/id6755911215)](https://apps.apple.com/app/promptkit-ai-prompt-manager/id6755911215)">macOS Version</a>
+</p>
+
+</div>
+
+---
