@@ -730,7 +730,8 @@ Import these templates to handle variables <code>{{input}}</code> automatically 
 </a>
 
 <p>
-<a href="[[https://apps.apple.com/app/idYOUR_APP_ID](https://apps.apple.com/app/promptkit-ai-prompt-manager/id6755911215)](https://apps.apple.com/app/promptkit-ai-prompt-manager/id6755911215)">iOS Version</a> &nbsp;&bull;&nbsp; <a href="[[https://apps.apple.com/app/idYOUR_APP_ID](https://apps.apple.com/app/promptkit-ai-prompt-manager/id6755911215)](https://apps.apple.com/app/promptkit-ai-prompt-manager/id6755911215)">macOS Version</a>
+  <a href="https://apps.apple.com/app/promptkit-ai-prompt-manager/id6755911215">iOS Version</a> &nbsp;&bull;&nbsp; 
+  <a href="https://apps.apple.com/app/promptkit-ai-prompt-manager/id6755911215">macOS Version</a>
 </p>
 
 </div>
